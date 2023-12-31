@@ -1,0 +1,76 @@
+body{
+    background-color:#fff9e1;
+    font-family: 'Pacifico', cursive;
+}
+.card{
+    display: inline;
+    width: 45%;
+    float: left;
+    padding-left: 10px;
+    padding-right:10px;
+  }
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+}
+.im1{
+    float: left;
+    height: 300px;
+    width: auto;
+    border-radius:20%; 
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.recipe{
+    padding-top: 0%;
+}
+.head{
+    text-align: center;
+    margin-top: 0%;
+}
+#t1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#im2{
+    float: left;
+}
+.card2{
+    padding-top: 50px;
+}
+
+/*Media query*/
+@media (max-width: 680px){
+    .logo {
+        width: 100px;
+      }
+      h1 {
+        font-size: 3.5rem;
+        text-align: center;
+      }
+      h1 {
+        font-size: 3.5rem;
+        text-align: center;
+      }
+      .recipe{
+        font-family:  serif;
+      }
+      .card{
+        width: 100%;
+        display: block;
+        text-align: justify;
+        margin-bottom: 30px;
+        
+      }
+      .im1{
+        display: inline;
+         width: 100%;
+         object-fit: cover;
+        }
+}
